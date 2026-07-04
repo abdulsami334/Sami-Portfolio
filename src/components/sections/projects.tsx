@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowUpRight, FileText, Github, Search } from "lucide-react";
+import { ArrowUpRight, Github, Search } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -102,12 +102,6 @@ export function ProjectsSection() {
                         <a href={project.links.github ?? "https://github.com/abdulsami334"} target="_blank" rel="noreferrer">
                           <Github className="h-4 w-4" />
                           GitHub
-                        </a>
-                      </Button>
-                      <Button asChild variant="ghost" className="rounded-full">
-                        <a href={project.links.caseStudy ?? "#architecture"}>
-                          <FileText className="h-4 w-4" />
-                          Case Study
                         </a>
                       </Button>
                     </div>

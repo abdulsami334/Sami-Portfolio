@@ -142,7 +142,7 @@ export const projects: Project[] = [
     decisions: ["Fixed write consistency with request debouncing and synchronized state management", "Separated frontend deployment from production API hosting", "Used JWT and email verification for secure account flows", "Prioritized backend reliability before adding more AI surface area"],
     stack: ["React", "Node.js", "Express.js", "MySQL", "Groq API", "JWT", "Email Verification", "Vercel"],
     metrics: ["Live beta", "Active early users", "Production API", "Concurrent autosave fix", "LLM summaries", "Semantic tagging"],
-    links: { live: "https://notaviq.com", caseStudy: "#projects" }
+    links: { live: "https://notaviq.com" }
   },
   {
     title: "ApplyFlow AI",
@@ -156,7 +156,7 @@ export const projects: Project[] = [
     decisions: ["Chose a modular monolith with microservices-ready boundaries", "Used EF Core with normalized PostgreSQL schema for relational integrity", "Designed JWT-based stateless authentication", "Managed delivery through Jira Scrum and Playwright verification"],
     stack: ["ASP.NET Core", "C#", "PostgreSQL", "Entity Framework Core", "JWT", "Playwright", "Jira", "Next.js", "TypeScript", "Tailwind CSS"],
     metrics: ["21/21 Playwright tests passing", "Modular monolith", "Microservices-ready boundaries", "JWT auth", "Normalized PostgreSQL schema", "Solo delivery"],
-    links: { github: "https://github.com/abdulsami334", caseStudy: "#architecture" }
+    links: { github: "https://github.com/abdulsami334" }
   },
   {
     title: "YouTube AI Analyzer Agent",
@@ -170,7 +170,7 @@ export const projects: Project[] = [
     decisions: ["Used Agno to demonstrate agentic workflow design", "Modeled the work as a task automation pipeline instead of a single prompt", "Focused on summaries and insights that expose practical LLM application design"],
     stack: ["Python", "Agno", "LLMs", "Prompt Orchestration", "Agentic Workflows"],
     metrics: ["Autonomous agent workflow", "Metadata extraction", "AI summaries", "Structured insights"],
-    links: { github: "https://github.com/abdulsami334", caseStudy: "#architecture" }
+    links: { github: "https://github.com/abdulsami334" }
   },
   {
     title: "AI Dialogue Summarizer",
@@ -226,7 +226,7 @@ export const projects: Project[] = [
     decisions: ["Split backend concerns into domain-focused services", "Kept the project suitable for microservices-style growth", "Used repository boundaries to make the system design visible"],
     stack: ["Node.js", "JavaScript", "REST APIs", "Service Boundaries", "Frontend Integration"],
     metrics: ["User service", "Report service", "Multi-repository system", "Domain separation"],
-    links: { github: "https://github.com/abdulsami334/UrbanEye-Backend-User-Service", caseStudy: "#architecture" }
+    links: { github: "https://github.com/abdulsami334/UrbanEye-Backend-User-Service" }
   },
   {
     title: "Expense Tracker",
@@ -240,7 +240,7 @@ export const projects: Project[] = [
     decisions: ["Separated API and UI repositories", "Kept backend responsibilities explicit", "Used the project to practice clean data flow across app layers"],
     stack: ["JavaScript", "Node.js", "REST APIs", "Frontend Integration"],
     metrics: ["Separate backend repo", "Separate frontend repo", "Expense workflow API"],
-    links: { github: "https://github.com/abdulsami334/Expense-Tracker-Backend", caseStudy: "#projects" }
+    links: { github: "https://github.com/abdulsami334/Expense-Tracker-Backend" }
   },
   {
     title: "CreditWise Loan Approval",
@@ -254,7 +254,7 @@ export const projects: Project[] = [
     decisions: ["Presented it as applied AI rather than production SaaS", "Kept it supporting-level because backend/agentic projects are stronger", "Used it to show AI breadth outside LLM systems"],
     stack: ["Jupyter Notebook", "Machine Learning", "Data Analysis", "Credit Decisioning"],
     metrics: ["Applied ML workflow", "Financial classification", "Notebook experimentation"],
-    links: { github: "https://github.com/abdulsami334/CreditWise-Loan-Approval", caseStudy: "#projects" }
+    links: { github: "https://github.com/abdulsami334/CreditWise-Loan-Approval" }
   }
 ];
 

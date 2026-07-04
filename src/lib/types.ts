@@ -35,7 +35,6 @@ export type Project = {
   links: {
     live?: string;
     github?: string;
-    caseStudy?: string;
   };
 };
 
