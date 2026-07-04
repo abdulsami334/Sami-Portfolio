@@ -41,7 +41,7 @@ export function HeroSection() {
                 LinkedIn
               </a>
             </Button>
-            <Button asChild size="lg" variant="ghost" className="rounded-full">
+            <Button asChild size="lg" variant="outline" className="rounded-full">
               <a href={`mailto:${profile.email}`}>
                 <Mail className="h-4 w-4" />
                 Contact

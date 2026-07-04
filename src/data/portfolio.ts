@@ -1,6 +1,7 @@
 import {
   Activity,
   Blocks,
+  Bot,
   BrainCircuit,
   Cloud,
   Code2,
@@ -13,7 +14,6 @@ import {
   Mail,
   Network,
   ServerCog,
-  ShieldCheck,
   TerminalSquare,
   Trophy,
   Workflow,
@@ -30,7 +30,7 @@ export const profile = {
   email: "abdulsamig334@gmail.com",
   phone: "+92 321 2893105",
   github: "https://github.com/abdulsami334",
-  linkedin: "https://www.linkedin.com/in/abdul-sami-ghuri",
+  linkedin: "https://www.linkedin.com/in/sami-ghouri-2819ba25a/",
   website: "https://notaviq.com",
   resume: "/resume-sami-backend-ai-engineer.pdf",
   headline: "I design clean backend systems and agentic AI workflows that can survive real product usage.",
@@ -39,13 +39,13 @@ export const profile = {
   openTo: ["Backend Software Engineer", "Backend & AI Engineer", "Applied AI Engineer", "Agentic AI / LLM Engineer"],
   social: [
     { label: "GitHub", href: "https://github.com/abdulsami334", icon: Github },
-    { label: "LinkedIn", href: "https://www.linkedin.com/in/abdul-sami-ghuri", icon: Linkedin },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/sami-ghouri-2819ba25a/", icon: Linkedin },
     { label: "Email", href: "mailto:abdulsamig334@gmail.com", icon: Mail }
   ]
 };
 
 export const recruiterSignals = [
-  { label: "Playwright backend flows passing", value: "21/21", icon: ShieldCheck },
+  { label: "LLM workflow automation", value: "Agentic", icon: Bot },
   { label: "Merit scholarships", value: "4x", icon: GraduationCap },
   { label: "Director's awards", value: "2x", icon: Trophy },
   { label: "Highest semester GPA", value: "3.9", icon: Activity }
@@ -213,6 +213,48 @@ export const projects: Project[] = [
     stack: ["Flutter", "Node.js", "Express.js", "MongoDB", "Google Maps API", "Geolocation"],
     metrics: ["30% faster app load", "Real-time location accuracy", "Offline caching"],
     links: { github: "https://github.com/abdulsami334" }
+  },
+  {
+    title: "UrbanEye",
+    category: "Backend Systems",
+    status: "Service-oriented civic reporting system",
+    description: "A smart utility reporting app split across frontend and backend services for user management and report workflows.",
+    problem: "Civic issue reporting needs structured submissions, user identity, report lifecycle handling, and service boundaries that can evolve as usage grows.",
+    solution: "A multi-repository system with dedicated backend services for user and report domains, plus a client application for reporting workflows.",
+    architecture: "Frontend client backed by Node.js/JavaScript services, separated into user-service and report-service repositories to model domain boundaries.",
+    challenges: ["Separating user and report responsibilities", "Keeping service APIs coherent across multiple repositories", "Designing workflows beyond a single CRUD backend"],
+    decisions: ["Split backend concerns into domain-focused services", "Kept the project suitable for microservices-style growth", "Used repository boundaries to make the system design visible"],
+    stack: ["Node.js", "JavaScript", "REST APIs", "Service Boundaries", "Frontend Integration"],
+    metrics: ["User service", "Report service", "Multi-repository system", "Domain separation"],
+    links: { github: "https://github.com/abdulsami334/UrbanEye-Backend-User-Service", caseStudy: "#architecture" }
+  },
+  {
+    title: "Expense Tracker",
+    category: "Backend Systems",
+    status: "Full-stack finance utility",
+    description: "A personal finance tracking system with separate backend and frontend repositories for expense workflows and data management.",
+    problem: "Expense products need reliable transaction capture, clean API boundaries, and a simple interface for repeated daily use.",
+    solution: "A backend-first expense tracking build with a dedicated API repository and a separate frontend client consuming the service.",
+    architecture: "JavaScript backend API paired with a frontend client, structured as separate repositories to keep data and interface concerns isolated.",
+    challenges: ["Modeling expense data cleanly", "Keeping frontend/backend contracts stable", "Designing a small product with production-style separation"],
+    decisions: ["Separated API and UI repositories", "Kept backend responsibilities explicit", "Used the project to practice clean data flow across app layers"],
+    stack: ["JavaScript", "Node.js", "REST APIs", "Frontend Integration"],
+    metrics: ["Separate backend repo", "Separate frontend repo", "Expense workflow API"],
+    links: { github: "https://github.com/abdulsami334/Expense-Tracker-Backend", caseStudy: "#projects" }
+  },
+  {
+    title: "CreditWise Loan Approval",
+    category: "Applied AI",
+    status: "Machine learning analysis",
+    description: "A Jupyter Notebook-based loan approval project exploring credit decisioning and model-driven financial classification.",
+    problem: "Loan decisions require structured analysis of applicant data, feature relationships, and model behavior before an approval recommendation can be trusted.",
+    solution: "A data science workflow for credit approval analysis using notebook-based experimentation and model evaluation.",
+    architecture: "Notebook pipeline for data inspection, feature analysis, model training/evaluation, and approval-oriented output interpretation.",
+    challenges: ["Reasoning about financial decision features", "Keeping model output explainable", "Turning notebook experimentation into a clear product story"],
+    decisions: ["Presented it as applied AI rather than production SaaS", "Kept it supporting-level because backend/agentic projects are stronger", "Used it to show AI breadth outside LLM systems"],
+    stack: ["Jupyter Notebook", "Machine Learning", "Data Analysis", "Credit Decisioning"],
+    metrics: ["Applied ML workflow", "Financial classification", "Notebook experimentation"],
+    links: { github: "https://github.com/abdulsami334/CreditWise-Loan-Approval", caseStudy: "#projects" }
   }
 ];
 
