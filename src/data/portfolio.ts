@@ -1,9 +1,7 @@
 import {
   Activity,
   Blocks,
-  Bot,
   BrainCircuit,
-  BriefcaseBusiness,
   Cloud,
   Code2,
   Database,
@@ -16,7 +14,6 @@ import {
   Network,
   ServerCog,
   ShieldCheck,
-  Sparkles,
   TerminalSquare,
   Trophy,
   Workflow,
@@ -27,8 +24,8 @@ import type { ArchitectureItem, Experience, Project, SkillGroup } from "@/lib/ty
 
 export const profile = {
   name: "Abdul Sami Ghuri",
-  displayName: "Abdul Sami Ghuri",
-  role: "Backend & AI Engineer",
+  displayName: "Abdul Sami",
+  role: "Backend Engineer | AI Engineer",
   location: "Karachi, Pakistan",
   email: "abdulsamig334@gmail.com",
   phone: "+92 321 2893105",
@@ -36,9 +33,9 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/abdul-sami-ghuri",
   website: "https://notaviq.com",
   resume: "/resume-sami-backend-ai-engineer.pdf",
-  headline: "I design production backends for AI products that need to be reliable, explainable, and fast.",
+  headline: "I design clean backend systems and agentic AI workflows that can survive real product usage.",
   intro:
-    "Software Engineer focused on backend systems, agentic AI, RAG workflows, and clean architecture. Founder of Notaviq, an AI knowledge platform built from concept to beta with secure APIs, LLM workflows, and production infrastructure.",
+    "Software Engineer focused on ASP.NET Core, FastAPI, Node.js, secure API design, LLM integration, RAG-ready architecture, and production SaaS delivery. Founder of Notaviq and builder of ApplyFlow AI, with hands-on experience taking backend-heavy products from system design through beta deployment.",
   openTo: ["Backend Software Engineer", "Backend & AI Engineer", "Applied AI Engineer", "Agentic AI / LLM Engineer"],
   social: [
     { label: "GitHub", href: "https://github.com/abdulsami334", icon: Github },
@@ -48,57 +45,57 @@ export const profile = {
 };
 
 export const recruiterSignals = [
-  { label: "Production uptime", value: "99.9%+", icon: Activity },
-  { label: "Active users shipped", value: "80+", icon: BriefcaseBusiness },
-  { label: "Manual workflow time saved", value: "70%", icon: Sparkles },
-  { label: "Test coverage delivered", value: "85%+", icon: ShieldCheck }
+  { label: "Playwright backend flows passing", value: "21/21", icon: ShieldCheck },
+  { label: "Merit scholarships", value: "4x", icon: GraduationCap },
+  { label: "Director's awards", value: "2x", icon: Trophy },
+  { label: "Highest semester GPA", value: "3.9", icon: Activity }
 ];
 
 export const about =
-  "Sami builds backend-first AI products with the discipline of a systems engineer and the urgency of a founder. His work sits where reliable APIs, clean architecture, LLM integrations, and product outcomes meet: secure authentication, database design, inference workflows, deployment pipelines, and the unglamorous reliability work that makes AI software trustworthy in production.";
+  "Abdul Sami Ghuri builds backend-first AI products with the discipline of a systems engineer and the urgency of a founder. His strongest work sits where secure APIs, clean/layered architecture, relational data modeling, concurrency handling, LLM workflows, and product delivery meet. He is especially interested in backend roles where AI features need real engineering boundaries, not demo-only glue code.";
 
 export const skills: SkillGroup[] = [
   {
     title: "Backend",
     summary: "APIs, services, auth, business logic, and production reliability.",
     icon: ServerCog,
-    skills: ["Python", "FastAPI", "Node.js", "Express.js", "ASP.NET Core", "REST APIs", "JWT", "RBAC", "Microservices"]
+    skills: ["Python", "C#", "FastAPI", "ASP.NET Core", "EF Core", "Node.js", "Express.js", "RESTful APIs", "JWT Auth", "RBAC"]
   },
   {
     title: "AI Engineering",
     summary: "LLM products with retrieval, agents, summarization, and evaluation-minded workflows.",
     icon: BrainCircuit,
-    skills: ["RAG Systems", "Agentic AI", "Groq API", "Hugging Face", "T5 Transformers", "LangChain", "Agno", "Prompt Engineering"]
+    skills: ["LLM Integration", "RAG", "Agentic Workflows", "Agno", "LangChain", "Groq API", "Hugging Face", "Prompt Engineering"]
   },
   {
     title: "Databases",
     summary: "Relational, document, vector-aware, and performance-conscious data modeling.",
     icon: Database,
-    skills: ["MySQL", "PostgreSQL", "MongoDB", "Firebase", "Aiven MySQL", "SQL", "Embeddings", "Schema Design"]
+    skills: ["PostgreSQL", "MySQL", "MongoDB", "Firebase", "EF Core", "Schema Design", "Indexing", "Relational Queries"]
   },
   {
     title: "Architecture",
     summary: "Clean boundaries, service decomposition, request lifecycles, and scale paths.",
     icon: Network,
-    skills: ["Clean Architecture", "System Design", "Distributed Systems", "API Design", "Domain Modeling", "Autosave", "Rate Limits"]
+    skills: ["Modular Monolith", "Clean Architecture", "Layered Architecture", "System Design", "API Design", "Concurrency Handling", "Microservices-Ready Boundaries"]
   },
   {
     title: "Cloud",
     summary: "Lean deployments that keep SaaS products fast, observable, and cost-aware.",
     icon: Cloud,
-    skills: ["Docker", "Vercel", "Render", "Cloudflare", "CI/CD", "Production Monitoring", "Cost Optimization"]
+    skills: ["Vercel", "Render", "Cloudflare", "CI/CD", "Production API Hosting", "Beta Deployment", "Cost-Aware Delivery"]
   },
   {
     title: "Frontend",
     summary: "Enough product UI depth to ship complete SaaS systems without losing backend focus.",
     icon: Code2,
-    skills: ["React", "Next.js", "Flutter", "TypeScript", "Responsive UI", "Product UX"]
+    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Flutter", "Product UI Integration"]
   },
   {
     title: "Tools",
     summary: "Engineering hygiene for maintainable teams and measurable quality.",
     icon: Wrench,
-    skills: ["Git", "Postman", "Jest", "Mocha", "Playwright", "SonarQube", "GitHub Workflows"]
+    skills: ["Git", "Postman", "Jest", "Playwright", "Jira", "SonarQube", "Copilot", "Codex", "ChatGPT", "Claude", "Gemini"]
   }
 ];
 
@@ -108,25 +105,25 @@ export const experiences: Experience[] = [
     company: "10Pearls Shine Program",
     period: "Dec 2025 - Mar 2026",
     logo: "10P",
-    summary: "Built full-stack systems while pushing the backend toward cleaner boundaries, secure auth, GenAI workflows, and measurable quality.",
+    summary: "Built full-stack web application features while pushing the backend toward cleaner boundaries, AI integration, and production-bound SaaS quality.",
     achievements: [
-      "Reduced technical debt by 35% through Clean Architecture and modular service design.",
-      "Architected JWT authentication with role-based access control for secure data handling across services.",
-      "Integrated LLM-powered features that automated 60% of repetitive workflows.",
-      "Raised quality with Jest/Mocha coverage above 85% and SonarQube analysis."
+      "Built and shipped end-to-end features using Node.js, Express.js, MySQL, and React.js.",
+      "Designed modular backend APIs that improved separation of concerns across services.",
+      "Integrated LLM-powered features to enhance interaction and automate product workflows.",
+      "Enforced quality through unit testing and static analysis with Jest and SonarQube."
     ],
-    technologies: ["React", "Node.js", "Express.js", "MySQL", "JWT", "LLMs", "Jest", "Mocha", "SonarQube"]
+    technologies: ["React", "Node.js", "Express.js", "MySQL", "JWT", "LLMs", "Jest", "SonarQube"]
   },
   {
-    role: "Software Developer Intern",
+    role: "Full-Stack Mobile App Developer Intern",
     company: "Matz Solutions Pvt Ltd",
     period: "Jul 2025 - Sep 2025",
     logo: "MS",
-    summary: "Delivered mobile applications backed by API and database work, with practical exposure to production support and performance tuning.",
+    summary: "Delivered Flutter mobile application work backed by API consumption, database integration, authentication flows, and end-to-end debugging.",
     achievements: [
-      "Developed 8+ Flutter applications with SQL and MongoDB-backed API integrations.",
-      "Optimized database queries and schema design, improving response time by 40%.",
-      "Supported deployment and backend maintenance across production services with 99.5% uptime."
+      "Built Flutter mobile UI and implemented REST API consumption for real-time data flows.",
+      "Integrated backend APIs with MongoDB and MySQL for application data management.",
+      "Owned bug fixing and end-to-end debugging across mobile and backend integration points."
     ],
     technologies: ["Flutter", "Node.js", "SQL", "MongoDB", "APIs", "Production Support"]
   }
@@ -137,15 +134,43 @@ export const projects: Project[] = [
     title: "Notaviq",
     category: "AI SaaS",
     status: "Live beta",
-    description: "An AI-powered knowledge management platform for notes, semantic organization, contextual conversations, and productivity workflows.",
-    problem: "Knowledge tools often capture information but leave users with manual organization, weak recall, and fragmented context.",
-    solution: "A secure SaaS backend with LLM-assisted summaries, auto-titles, semantic tagging, conversations, autosave, and role-aware user flows.",
-    architecture: "React client, Node/Express API, JWT auth, MySQL persistence, Groq LLM layer, Vercel/Render deployment, Aiven database, Cloudflare edge.",
-    challenges: ["Concurrent autosave without data loss", "LLM response latency", "Cost control for AI features", "Authentication and account recovery"],
-    decisions: ["Kept AI services behind backend boundaries", "Used MySQL for durable product data", "Added Cloudflare and infrastructure split for resilience", "Optimized API latency and LLM usage before scaling UI complexity"],
-    stack: ["React", "Node.js", "Express.js", "MySQL", "Groq API", "JWT", "Vercel", "Render", "Aiven", "Cloudflare"],
-    metrics: ["80+ active users", "70%+ retention", "99.9% uptime", "40% lower API latency", "45% lower costs", "70% less manual note work"],
+    description: "An AI-powered knowledge management SaaS for intelligent note management, summarization, semantic tagging, and contextual note conversations.",
+    problem: "Knowledge products often look polished but fail when state sync, autosave, authentication, and AI features meet real user behavior.",
+    solution: "A full-stack SaaS with a separately hosted production API, secure JWT authentication, account recovery, LLM-powered note intelligence, and synchronized autosave.",
+    architecture: "React client on Vercel, Node.js/Express production API, MySQL persistence, JWT auth, email verification, Groq LLM layer, and backend-mediated AI workflows.",
+    challenges: ["Rapid edits caused overlapping autosave calls", "Stale writes during concurrent state updates", "Secure authentication and account recovery", "Keeping LLM workflows inside backend boundaries"],
+    decisions: ["Fixed write consistency with request debouncing and synchronized state management", "Separated frontend deployment from production API hosting", "Used JWT and email verification for secure account flows", "Prioritized backend reliability before adding more AI surface area"],
+    stack: ["React", "Node.js", "Express.js", "MySQL", "Groq API", "JWT", "Email Verification", "Vercel"],
+    metrics: ["Live beta", "Active early users", "Production API", "Concurrent autosave fix", "LLM summaries", "Semantic tagging"],
     links: { live: "https://notaviq.com", caseStudy: "#projects" }
+  },
+  {
+    title: "ApplyFlow AI",
+    category: "Backend Systems",
+    status: "Solo full-stack platform",
+    description: "An AI-powered job application platform with application tracking, analytics, Kanban workflows, resume management, and tested backend flows.",
+    problem: "Job seekers need more than a spreadsheet: they need structured application data, workflow visibility, resume assets, and analytics in one reliable system.",
+    solution: "A modular ASP.NET Core backend with stateless JWT authentication, normalized PostgreSQL data modeling, RESTful APIs, and a Next.js frontend consuming the system end to end.",
+    architecture: "ASP.NET Core modular monolith organized through Controllers, Services, and EF Core repositories, backed by PostgreSQL and consumed by a Next.js/TypeScript/Tailwind frontend.",
+    challenges: ["Avoiding premature microservices complexity", "Keeping backend boundaries clean while moving fast solo", "Modeling users, applications, workflow stages, analytics, and resume data", "Testing backend flows with confidence"],
+    decisions: ["Chose a modular monolith with microservices-ready boundaries", "Used EF Core with normalized PostgreSQL schema for relational integrity", "Designed JWT-based stateless authentication", "Managed delivery through Jira Scrum and Playwright verification"],
+    stack: ["ASP.NET Core", "C#", "PostgreSQL", "Entity Framework Core", "JWT", "Playwright", "Jira", "Next.js", "TypeScript", "Tailwind CSS"],
+    metrics: ["21/21 Playwright tests passing", "Modular monolith", "Microservices-ready boundaries", "JWT auth", "Normalized PostgreSQL schema", "Solo delivery"],
+    links: { github: "https://github.com/abdulsami334", caseStudy: "#architecture" }
+  },
+  {
+    title: "YouTube AI Analyzer Agent",
+    category: "LLM Systems",
+    status: "Agentic AI system",
+    description: "An autonomous AI agent that extracts YouTube video metadata and generates AI-powered summaries, insights, and task-oriented analysis.",
+    problem: "Video content is information-rich but slow to inspect manually, especially when users need structured insights instead of passive viewing.",
+    solution: "A Python agent built around Agno and LLM workflows to orchestrate metadata extraction, prompt steps, summarization, and insight generation.",
+    architecture: "Python agent workflow with video metadata extraction, prompt orchestration, LLM reasoning steps, summary generation, and structured insight output.",
+    challenges: ["Designing useful multi-step agent behavior", "Keeping prompt orchestration understandable", "Turning unstructured video context into recruiter-friendly engineering output"],
+    decisions: ["Used Agno to demonstrate agentic workflow design", "Modeled the work as a task automation pipeline instead of a single prompt", "Focused on summaries and insights that expose practical LLM application design"],
+    stack: ["Python", "Agno", "LLMs", "Prompt Orchestration", "Agentic Workflows"],
+    metrics: ["Autonomous agent workflow", "Metadata extraction", "AI summaries", "Structured insights"],
+    links: { github: "https://github.com/abdulsami334", caseStudy: "#architecture" }
   },
   {
     title: "AI Dialogue Summarizer",
@@ -194,8 +219,8 @@ export const projects: Project[] = [
 export const architectureGallery: ArchitectureItem[] = [
   {
     title: "Backend Flow",
-    description: "A service-first view of API requests, validation, domain logic, persistence, and observability.",
-    nodes: ["Client", "API Gateway", "Auth Middleware", "Controller", "Use Case", "Repository", "Database"]
+    description: "A service-first view of API requests, validation, domain logic, persistence, and response shaping.",
+    nodes: ["Client", "REST API", "Auth Middleware", "Controller", "Service", "Repository", "Database"]
   },
   {
     title: "Authentication Flow",
@@ -204,8 +229,8 @@ export const architectureGallery: ArchitectureItem[] = [
   },
   {
     title: "LLM Pipeline",
-    description: "Backend-mediated LLM calls with prompt shaping, cost controls, semantic tags, and persisted output.",
-    nodes: ["User Input", "Prompt Builder", "Policy Layer", "Groq LLM", "Post Processor", "MySQL"]
+    description: "Backend-mediated LLM calls with prompt shaping, AI note intelligence, semantic tags, and persisted output.",
+    nodes: ["User Input", "Prompt Builder", "Backend Boundary", "Groq LLM", "Post Processor", "MySQL"]
   },
   {
     title: "RAG Workflow",
@@ -219,15 +244,25 @@ export const architectureGallery: ArchitectureItem[] = [
   },
   {
     title: "Database Design",
-    description: "Product entities shaped for users, notes, auth, AI metadata, and future analytics.",
-    nodes: ["Users", "Sessions", "Notes", "Tags", "AI Summaries", "Conversations", "Events"]
+    description: "Relational product entities shaped for users, notes, applications, workflow stages, AI metadata, and analytics.",
+    nodes: ["Users", "Auth", "Notes", "Applications", "Stages", "AI Metadata", "Analytics"]
+  },
+  {
+    title: "ApplyFlow Modular Monolith",
+    description: "A pragmatic ASP.NET Core architecture that keeps clean boundaries without premature distributed-system overhead.",
+    nodes: ["Next.js UI", "ASP.NET Controllers", "Services", "EF Core", "PostgreSQL", "Playwright Tests"]
+  },
+  {
+    title: "Agentic AI Workflow",
+    description: "A task-oriented workflow for metadata extraction, prompt orchestration, LLM reasoning, and structured insights.",
+    nodes: ["Video URL", "Metadata Extractor", "Agno Agent", "LLM Step", "Summary", "Insights"]
   }
 ];
 
 export const achievements = [
   { title: "4x Merit Scholarship", detail: "Recognized for sustained academic performance.", icon: GraduationCap },
   { title: "2x Director's Award", detail: "Awarded for exceptional project contributions.", icon: Trophy },
-  { title: "GDG Kolachi Hackathon", detail: "Built across AI/ML and full-stack product challenges.", icon: Bot },
+  { title: "Highest Semester GPA: 3.9", detail: "Academic signal supporting consistency and disciplined execution.", icon: Activity },
   { title: "Founder of Notaviq", detail: "Took an AI SaaS product from concept to beta deployment.", icon: Blocks }
 ];
 
