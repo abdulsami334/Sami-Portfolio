@@ -1,0 +1,67 @@
+--- PAGE 1 ---
+ABDUL SAMI GHURI
+Backend & AI Engineer
+Karachi | +92 321 2893105 | abdulsamig334@gmail.com| GitHub | LinkedIn | notaviq.com
+PROFESSIONAL SUMMARY
+Backend & AI Engineer specializing in scalable microservices, RAG pipelines, and production SaaS systems. Proficient in
+Python, Node.js, FastAPI, and LLM integration. Strong expertise in secure API design, distributed architecture, and
+cloud-native deployments achieving 99.9%+ uptime.
+TECHNICAL SKILLS
+Languages: JavaScript (ES6+), Python, Dart, SQL
+Backend: Node.js, Express.js, FastAPI, REST APIs, JWT Authentication, Microservices
+AI/GenAI: LLM Integration, RAG Systems, Groq API, Transformers, LangChain, Agno, Prompt Engineering
+Databases: MySQL, MongoDB, Firebase, Vector Embeddings
+DevOps: Docker, Vercel, Render, Cloudflare, CI/CD
+Tools: Git, Postman, Jest, Mocha, SonarQube
+Frontend: React.js, Flutter,
+PROFESSIONAL EXPERIENCE
+Full Stack Developer Intern — 10Pearls Shine Program
+December 2025 – March 2026
+• Engineered full-stack applications with React.js, Node.js, Express.js, MySQL; reduced technical debt 35% through
+Clean Architecture.
+• Architected JWT-based authentication with role-based access control for secure data handling across
+microservices.
+• Integrated LLM GenAI features automating 60% of repetitive workflows; improved user productivity significantly. •
+Enforced code quality via Jest/Mocha testing (85%+ coverage) and SonarQube analysis; eliminated critical
+production bugs.
+Software Developer Intern — Matz Solutions Pvt Ltd
+July 2025 – September 2025
+• Developed 8+ Flutter applications with seamless backend API integration using SQL and MongoDB. •
+Optimized database queries and schema design; improved response time by 40%.
+• Maintained 99.5% uptime across production services; supported deployment and backend maintenance.
+KEY PROJECTS
+Notaviq — AI-Powered Knowledge Management Platform
+React | Node.js | Express.js | MySQL | Groq API | JWT – Notaviq
+• Architected secure backend with JWT authentication, email recovery, and role-based access control. •
+Integrated Groq LLM for AI-powered note summarization, auto-titles, semantic tagging, and conversations;
+reduced manual time 70%.
+• Engineered distributed architecture on Vercel, Render, Aiven MySQL, Cloudflare; achieved 99.9% uptime. •
+Solved production issues: reduced API latency 40%, optimized costs 45%, implemented concurrent autosave. •
+Scaled to 80+ active users with 70%+ retention; live at notaviq.com
+AI Dialogue Summarizer System
+React | Python | FastAPI | Hugging Face T5 Transformers — GitHub
+• Built FastAPI backend with T5 Transformers; handled 15+ concurrent requests with sub-second response times. •
+Optimized inference via Beam Search decoding and GPU acceleration (CUDA/MPS); achieved 85% throughput
+improvement.
+• Engineered preprocessing pipeline using regex; improved model accuracy 15%.
+AI ATS Resume Analyzer
+Python | React.js | Node.js | NLP (TF-IDF, Cosine Similarity) — GitHub
+• Developed AI resume-to-job matching using TF-IDF vectorization and cosine similarity; 92% accuracy on 500+
+pairs.
+
+--- PAGE 2 ---
+• Architected full-stack platform: React frontend with keyword highlighting + Node.js PDF processing APIs. •
+Reduced manual review time by 50% with real-time matching analysis and recommendation reports.
+Mosque Locator — Geolocation Discovery App
+Flutter | Node.js | Express.js | MongoDB | Google Maps API – Frontend | Backend
+• Built cross-platform app with geolocation services; integrated Google Maps API for real-time location accuracy. •
+Engineered custom Node.js backend for high-speed spatial queries with efficient geolocation search. • Optimized
+UX with offline caching and responsive design; reduced app load time by 30%.
+EDUCATION
+BS Software Engineering — Mohammad Ali Jinnah University
+CGPA: 3.58/4.0 | Graduation: January 2027
+Advanced AI & Machine Learning Specialization — Apna College
+ACHIEVEMENTS
+• 4x Merit Scholarship Recipient — Outstanding academic performance
+• 2x Director's Award Recipient — Exceptional project contributions
+• GDG Kolachi Hackathon Participant — AI/ML and full-stack development
