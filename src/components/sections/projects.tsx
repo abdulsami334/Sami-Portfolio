@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowUpRight, Github, Search } from "lucide-react";
+import { ArrowUpRight, Github, Lock, Search } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -9,7 +9,7 @@ import { SectionHeading } from "@/components/site/section-heading";
 import { projects } from "@/data/portfolio";
 import { cn } from "@/lib/utils";
 
-const filters = ["All", "AI SaaS", "LLM Systems", "Applied AI", "Backend Systems"] as const;
+const filters = ["All", "Voice AI", "Computer Vision", "Backend Systems", "LLM Systems", "Applied AI", "Mobile"] as const;
 
 export function ProjectsSection() {
   const [filter, setFilter] = useState<(typeof filters)[number]>("All");
@@ -28,7 +28,7 @@ export function ProjectsSection() {
   return (
     <section id="projects" className="px-4 py-24">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading eyebrow="Featured Projects" title="Projects presented as engineering products." description="Each case study emphasizes the problem, architecture, tradeoffs, and production decisions behind the build." />
+        <SectionHeading eyebrow="Featured Projects" title="Projects presented as engineering products." description="Each case study shows the problem, the architecture, what went wrong, and the decisions that fixed it." />
         <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <div className="flex flex-wrap gap-2">
             {filters.map((item) => (
@@ -98,12 +98,28 @@ export function ProjectsSection() {
                           </a>
                         </Button>
                       ) : null}
-                      <Button asChild variant="outline" className="rounded-full">
-                        <a href={project.links.github ?? "https://github.com/abdulsami334"} target="_blank" rel="noreferrer">
-                          <Github className="h-4 w-4" />
-                          GitHub
-                        </a>
-                      </Button>
+                      {project.links.github ? (
+                        <Button asChild variant="outline" className="rounded-full">
+                          <a href={project.links.github} target="_blank" rel="noreferrer">
+                            <Github className="h-4 w-4" />
+                            {project.links.githubBackend ? "App code" : "GitHub"}
+                          </a>
+                        </Button>
+                      ) : null}
+                      {project.links.githubBackend ? (
+                        <Button asChild variant="outline" className="rounded-full">
+                          <a href={project.links.githubBackend} target="_blank" rel="noreferrer">
+                            <Github className="h-4 w-4" />
+                            API code
+                          </a>
+                        </Button>
+                      ) : null}
+                      {project.note ? (
+                        <span className="inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm text-muted-foreground">
+                          <Lock className="h-4 w-4" />
+                          {project.note}
+                        </span>
+                      ) : null}
                     </div>
                   </div>
                 </div>

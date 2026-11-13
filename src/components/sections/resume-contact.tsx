@@ -19,7 +19,7 @@ export function ResumeContactSection() {
     <>
       <section id="resume" className="px-4 py-24">
         <div className="mx-auto max-w-6xl">
-          <SectionHeading eyebrow="Resume" title="A focused backend and AI profile." description="Embedded for quick recruiter review, with a direct download for ATS and forwarding workflows." />
+          <SectionHeading eyebrow="Resume" title="A focused AI and backend profile." description="Embedded for quick recruiter review, with a direct download for ATS and forwarding workflows." />
           <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
             <div className="glass rounded-lg p-6">
               <h3 className="text-2xl font-semibold">{profile.name}</h3>
@@ -64,7 +64,7 @@ export function ResumeContactSection() {
           <p className="font-mono text-xs uppercase tracking-[0.28em] text-accent">Contact</p>
           <h2 className="mt-4 text-balance text-4xl font-semibold tracking-tight sm:text-6xl">Let’s build reliable AI software.</h2>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
-            Available for backend engineering, applied AI engineering, and agentic AI roles where production judgment matters.
+            Available for AI engineering, backend (Python / .NET) and forward deployed engineering roles where production judgment matters.
           </p>
           <div className="mt-9 flex flex-wrap justify-center gap-3">
             <Button asChild size="lg" variant="accent" className="rounded-full">

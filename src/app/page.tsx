@@ -26,12 +26,12 @@ const structuredData = {
     addressCountry: "PK"
   },
   url: profile.website,
-  sameAs: [profile.github, profile.linkedin, profile.website],
+  sameAs: [profile.github, profile.linkedin],
   knowsAbout: skills.flatMap((group) => group.skills),
   hasOccupation: {
     "@type": "Occupation",
-    name: "Backend and AI Engineer",
-    skills: ["Backend Engineering", "AI Engineering", "System Design", "RAG", "Agentic AI", "API Design"]
+    name: profile.role,
+    skills: ["AI Engineering", "Backend Engineering", "Voice AI", "Computer Vision", "API Design", "Python", "C#"]
   },
   makesOffer: projects.map((project) => ({
     "@type": "CreativeWork",

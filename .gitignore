@@ -6,3 +6,7 @@ dist
 !.env.example
 *.tsbuildinfo
 pnpm-lock.yaml
+
+# private working files and package cache (never publish)
+.analysis/
+.pnpm-store/

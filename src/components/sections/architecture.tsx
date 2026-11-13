@@ -6,7 +6,7 @@ export function ArchitectureSection() {
   return (
     <section id="architecture" className="px-4 py-24">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading eyebrow="Architecture Gallery" title="Systems thinking made visible." description="A compact gallery of the flows behind Sami's backend and AI work: auth, request lifecycle, LLM boundaries, RAG, and data design." />
+        <SectionHeading eyebrow="Architecture Gallery" title="Systems thinking made visible." description="The flows behind Sami's AI and backend work: a real-time voice pipeline, a field-scanning pipeline, job queues and clean .NET boundaries." />
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {architectureGallery.map((item, index) => (
             <Reveal key={item.title} delay={index * 0.04} className="rounded-lg border bg-card p-5">

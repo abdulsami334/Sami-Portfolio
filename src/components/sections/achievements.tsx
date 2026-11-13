@@ -6,7 +6,7 @@ export function AchievementsSection() {
   return (
     <section id="achievements" className="px-4 py-24">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading eyebrow="Achievements" title="Signals of consistency and initiative." description="Academic recognition, project awards, hackathon exposure, and founder-level ownership." />
+        <SectionHeading eyebrow="Achievements" title="Signals of consistency and initiative." description="Academic results and recognition from Muhammad Ali Jinnah University." />
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
           {achievements.map((achievement, index) => (
             <Reveal key={achievement.title} delay={index * 0.05} className="rounded-lg border bg-card p-6 transition-transform hover:-translate-y-1">

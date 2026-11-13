@@ -14,8 +14,8 @@ export function HeroSection() {
       <div className="relative z-10 mx-auto grid max-w-6xl gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:items-end">
         <div>
           <Reveal className="mb-6 flex flex-wrap items-center gap-3">
-            <Badge>Founder @ Notaviq</Badge>
-            <TypingLine phrases={["FastAPI + Node.js", "Agentic AI workflows", "Clean Architecture", "RAG-ready systems"]} />
+            <Badge>Junior AI Developer @ ChildLife Foundation</Badge>
+            <TypingLine phrases={["Real-time voice agents", "YOLO11 computer vision", "ASP.NET Core + FastAPI", "Clean, tested backends"]} />
           </Reveal>
           <HeroTitle />
           <Reveal delay={0.15}>

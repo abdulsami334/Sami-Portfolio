@@ -18,8 +18,9 @@ export function HeroTitle() {
 
   return (
     <h1 ref={ref} className="text-balance text-5xl font-semibold tracking-tight sm:text-7xl lg:text-8xl">
-      <span className="inline-block">Backend</span>{" "}
       <span className="inline-block text-accent">AI</span>{" "}
+      <span className="inline-block">and</span>{" "}
+      <span className="inline-block">backend</span>{" "}
       <span className="inline-block">systems</span>{" "}
       <span className="inline-block">built</span>{" "}
       <span className="inline-block">for</span>{" "}

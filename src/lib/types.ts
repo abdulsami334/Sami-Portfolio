@@ -22,7 +22,7 @@ export type Experience = {
 
 export type Project = {
   title: string;
-  category: "AI SaaS" | "LLM Systems" | "Applied AI" | "Backend Systems";
+  category: "Voice AI" | "Computer Vision" | "Backend Systems" | "LLM Systems" | "Applied AI" | "Mobile";
   status: string;
   description: string;
   problem: string;
@@ -35,7 +35,9 @@ export type Project = {
   links: {
     live?: string;
     github?: string;
+    githubBackend?: string;
   };
+  note?: string;
 };
 
 export type ArchitectureItem = {

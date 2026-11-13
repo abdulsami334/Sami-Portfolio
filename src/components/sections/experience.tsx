@@ -7,7 +7,7 @@ export function ExperienceSection() {
   return (
     <section id="experience" className="px-4 py-24">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading eyebrow="Experience" title="A timeline of production-minded engineering." description="Internship work reframed around the impact recruiters care about: architecture, quality, security, and reliability." />
+        <SectionHeading eyebrow="Experience" title="A timeline of production-minded engineering." description="From internships in product teams to building AI with doctors for pediatric care." />
         <div className="relative mx-auto max-w-4xl">
           <div className="absolute left-6 top-0 h-full w-px bg-border md:left-1/2" />
           {experiences.map((item, index) => (

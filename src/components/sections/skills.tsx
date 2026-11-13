@@ -7,7 +7,7 @@ export function SkillsSection() {
   return (
     <section id="skills" className="px-4 py-24">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading eyebrow="Technical Skills" title="Depth where AI products usually break." description="A categorized map of the systems, AI, database, cloud, and quality skills behind the work." />
+        <SectionHeading eyebrow="Technical Skills" title="Depth where AI products usually break." description="The backend, voice, vision, data, delivery and testing skills behind the work, in Python and C#." />
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {skills.map((group, index) => (
             <Reveal key={group.title} delay={index * 0.04} className="group rounded-lg border bg-card p-6 transition-all hover:-translate-y-1 hover:border-accent/60 hover:shadow-2xl hover:shadow-accent/10">

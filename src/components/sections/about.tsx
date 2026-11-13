@@ -7,7 +7,7 @@ export function AboutSection() {
   return (
     <section id="about" className="px-4 py-24">
       <div className="mx-auto max-w-6xl">
-        <SectionHeading eyebrow="About" title="A backend engineer who happens to build AI products end to end." description="The point is not to look full-stack. The point is to show enough product range to make the backend judgment credible." />
+        <SectionHeading eyebrow="About" title="An AI and backend engineer who starts from the real problem." description="Python and C# today, with systems tested against real calls, real field images and real users." />
         <div className="grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
           <Reveal className="glass rounded-lg p-8">
             <p className="text-xl leading-9 text-foreground">{about}</p>
@@ -26,7 +26,7 @@ export function AboutSection() {
               ))}
             </div>
             <p className="mt-6 text-sm leading-7 text-muted-foreground">
-              Current focus: production SaaS backends, agentic workflows, reliable LLM boundaries, API design, and systems that can scale without losing clarity.
+              Current focus: real-time voice agents, computer vision that works in the field, ASP.NET Core and FastAPI backends, and measuring results honestly.
             </p>
           </Reveal>
         </div>
